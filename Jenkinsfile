@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('137ae76e-b8ea-41ca-b08f-bf7978208ba2')
-	DOCKERFILE_PATH = '/var/lib/jenkins/workspace/Docker_jenkins/Dockerfile' 
-        IMAGE_NAME = 'mydocker0707/webapp'
+	DOCKERFILE_PATH = 'Dockerfile' 
+        IMAGE_NAME = 'mydocker0707/myrepository_07'
         IMAGE_TAG = 'latest'
     }
 
