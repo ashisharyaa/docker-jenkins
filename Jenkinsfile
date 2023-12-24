@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('137ae76e-b8ea-41ca-b08f-bf7978208ba2')
+	DOCKERFILE_PATH = 'Dockerfile' // Assuming the Dockerfile is in the root of the workspace
         IMAGE_NAME = 'mydocker0707/webapp'
         IMAGE_TAG = 'latest'
     }
