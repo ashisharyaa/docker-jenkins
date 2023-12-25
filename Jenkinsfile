@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_CREDENTIALS = credentials('mydocker0707')
+        DOCKER_HUB_CREDENTIALS = credentials('mydocker0707:docker0707')
 	DOCKERFILE_PATH = 'Dockerfile' 
         IMAGE_NAME = 'mydocker0707/myrepository_07'
         IMAGE_TAG = 'latest'
